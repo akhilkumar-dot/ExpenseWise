@@ -411,13 +411,6 @@ This project is licensed under the **MIT License** — see the [LICENSE](LICENSE
 
 ---
 
-## 👤 Author
-
-**Akhil Kumar**
-
-[![GitHub](https://img.shields.io/badge/GitHub-akhilkumar--dot-181717?style=flat&logo=github)](https://github.com/akhilkumar-dot)
-
----
 
 <div align="center">
 <sub>Built with ❤️ using Spring Boot & MongoDB</sub>
