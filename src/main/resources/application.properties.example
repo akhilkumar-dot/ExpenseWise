@@ -1,0 +1,25 @@
+# ============================================
+# application.properties.example
+# Copy this file to application.properties
+# and fill in your own values.
+# DO NOT commit application.properties — it is in .gitignore
+# ============================================
+
+# MongoDB
+spring.data.mongodb.uri=mongodb://localhost:27017/expensewise_db
+spring.data.mongodb.database=expensewise_db
+
+# Server
+server.port=8080
+
+# JWT — replace with a strong random secret (min 32 chars)
+jwt.secret=REPLACE_WITH_YOUR_SECRET_KEY_MIN_32_CHARS
+jwt.expiration=86400000
+
+# Logging
+logging.level.com.expensewise=DEBUG
+logging.level.org.springframework.security=WARN
+
+# Jackson
+spring.jackson.serialization.write-dates-as-timestamps=false
+spring.jackson.time-zone=UTC
